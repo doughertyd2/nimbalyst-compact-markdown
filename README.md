@@ -25,7 +25,7 @@ Heading weights, the h1 underline, and the `--nim-border` color are preserved, s
 
 ## How it works
 
-Styles-only extension: `index.css` is loaded globally via the manifest `styles` field and targets `.markdown-content`. `index.js` is a required no-op entry point.
+Styles-only extension: `dist/index.css` is loaded globally via the manifest `styles` field and targets `.markdown-content`. `dist/index.js` is a required no-op entry point. (The files live in `dist/` because Nimbalyst's GitHub-URL installer requires a committed `dist/` for any extension with a `main`; there's no build step — they're authored directly.)
 
 ## Install
 
@@ -33,7 +33,7 @@ Install through Nimbalyst (Extensions → install from GitHub URL / folder). Ena
 
 ## Tuning
 
-Edit the `font-size` values in `index.css` and reload the extension. Each line notes the Nimbalyst default for reference.
+Edit the `font-size` values in `dist/index.css` and reload the extension. Each line notes the Nimbalyst default for reference.
 
 ## License
 

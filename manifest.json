@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "description": "Slightly smaller heading + body text in the agent transcript. A toned-down version of Nimbalyst's default markdown type scale.",
   "author": "ddougherty",
-  "main": "index.js",
-  "styles": "index.css",
+  "main": "dist/index.js",
+  "styles": "dist/index.css",
   "apiVersion": "1.0.0",
   "defaultEnabled": true,
   "permissions": {
