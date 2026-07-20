@@ -2,6 +2,13 @@
 
 A small Nimbalyst extension that makes agent-transcript markdown a bit more compact — a toned-down version of the default heading and body type scale.
 
+## Preview
+
+Default vs. Compact, in Nimbalyst's stock themes:
+
+![Compact Markdown — default vs. compact (light)](screenshots/light.png#gh-light-mode-only)
+![Compact Markdown — default vs. compact (dark)](screenshots/dark.png#gh-dark-mode-only)
+
 Nimbalyst's default markdown sizes (from `MarkdownRenderer.tsx`) vs. this extension:
 
 | Element | Default | This extension |
