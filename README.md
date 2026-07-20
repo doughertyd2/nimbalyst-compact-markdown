@@ -1,4 +1,4 @@
-# Markdown Sizing
+# Compact Markdown
 
 A small Nimbalyst extension that makes agent-transcript markdown a bit more compact — a toned-down version of the default heading and body type scale.
 

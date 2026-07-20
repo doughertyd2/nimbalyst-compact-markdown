@@ -1,6 +1,6 @@
 {
   "id": "com.ddougherty.markdown-sizing",
-  "name": "Markdown Sizing",
+  "name": "Compact Markdown",
   "version": "1.0.0",
   "description": "Slightly smaller heading + body text in the agent transcript. A toned-down version of Nimbalyst's default markdown type scale.",
   "author": "ddougherty",
