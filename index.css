@@ -1,0 +1,48 @@
+/* Toned-down markdown type scale for the agent transcript.
+   Overrides the core renderer's inline heading styles (hence !important).
+   Nimbalyst defaults are shown in comments; tune the values to taste. */
+
+.markdown-content {
+  font-size: 0.875rem !important;   /* default 0.9375rem */
+  line-height: 1.6 !important;
+}
+
+.markdown-content h1 {
+  font-size: 1.6rem !important;     /* default 1.875rem */
+  font-weight: 700 !important;
+  margin-top: 1.4rem !important;
+  margin-bottom: 0.85rem !important;
+  border-bottom: 1px solid var(--nim-border) !important;
+  padding-bottom: 0.4rem !important;
+}
+
+.markdown-content h2 {
+  font-size: 1.3rem !important;     /* default 1.5rem */
+  font-weight: 600 !important;
+  margin-top: 1.15rem !important;
+  margin-bottom: 0.65rem !important;
+}
+
+.markdown-content h3 {
+  font-size: 1.15rem !important;    /* default 1.25rem */
+  font-weight: 600 !important;
+  margin-top: 0.95rem !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.markdown-content h4 {
+  font-size: 1.02rem !important;    /* default 1.125rem */
+  font-weight: 600 !important;
+  margin-top: 0.9rem !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.markdown-content h5 {
+  font-size: 0.9375rem !important;  /* default 1rem */
+  font-weight: 600 !important;
+}
+
+.markdown-content h6 {
+  font-size: 0.85rem !important;    /* default 0.875rem */
+  font-weight: 600 !important;
+}
